@@ -11,6 +11,7 @@ public class OrderController {
     private RestTemplate restTemplate;
        @GetMapping("/getOrderUser")
        public String getOrderUser(){
+           System.out.println("ssss");
            return restTemplate.getForObject("http://USER/getUser",String.class);
        }
 }
