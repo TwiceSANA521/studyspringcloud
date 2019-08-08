@@ -1,4 +1,4 @@
-package com.springcloud;
+package com.feign.order;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
